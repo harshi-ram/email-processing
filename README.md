@@ -1,10 +1,10 @@
-# 📬 Asynchronous Email Queue System
+# Asynchronous Email Queue System
 
 A backend-focused system for handling email tasks asynchronously using a job queue architecture. Tasks are offloaded to background workers to improve performance, scalability, and reliability.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Asynchronous email processing using Redis queue
 - Background worker for handling jobs
@@ -15,7 +15,7 @@ A backend-focused system for handling email tasks asynchronously using a job que
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - Backend: Node.js, Express.js  
 - Queue System: Redis, BullMQ  
@@ -24,7 +24,7 @@ A backend-focused system for handling email tasks asynchronously using a job que
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 Client (React)  
 ↓  
@@ -34,7 +34,7 @@ Worker (BullMQ) → Processes Job
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repository
 ```bash
@@ -65,7 +65,3 @@ cd client
 npm start
 ```
 
-
-```bash
-git clone https://github.com/harshi-ram/your-repo-name.git
-cd your-repo-name
